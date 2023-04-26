@@ -1,0 +1,65 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Hero Section */
+
+#mi {
+  background-image: url("../img/468739.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+/* Mis trabajos */
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.card-body{
+  background-color: #ffffff;
+}
+
+.linea {
+  border-top: 10px solid #236fd38e;
+  height: 2px;
+  max-width: 1500px;
+  padding: 0;
+  margin: 20px auto 0 auto;
+}
+
+.navbar-toggler{
+  background-image:url('https://icons.iconarchive.com/icons/kalangozilla/skrynium-black/128/batman-tburton-icon.png');
+  background-repeat:no-repeat;
+  height:60px;
+  width:70px;
+  background-size: 50px 50px;
+  background-position:center;
+}
